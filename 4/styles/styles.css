@@ -1,0 +1,78 @@
+@font-face {
+    font-family:"PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url(/fonts/ptsans-700.woff2) format(woff2);
+    font-display: swap ;
+}
+
+@font-face {
+    font-family:"PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/ptsans-400.woff2) format(woff2);
+    font-display: swap ;
+}
+body {
+    font-family:"PT Sans";
+    color: black;
+}
+.navigation-link{
+    font-style: normal ;
+    font-weight: 700;
+    color: black;
+    font-size: 24px;
+    line-height: 28px;
+}
+.menu-link{
+    font-style: normal;
+    font-weight: 700;
+    color: black;
+    font-size: 24px;
+    line-height: 28px;
+}
+.advantages-title{
+    font-style: normal;
+    font-weight: 700;
+    color: black;
+    font-size: 24px;
+    line-height: 28px;
+}
+.advantages-description{
+    font-style: normal ;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    line-height: 21px;
+}
+.interesing-prg{
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    font-size: 22px;
+    line-height: 26px;
+}
+.interesting-title{
+    font-style: normal;
+    font-weight: 700;
+    color: black;
+    font-size: 30px;
+    line-height: 36px;
+}
+.page-footer-title{
+    font-style: normal;
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 30px;
+    line-height: 36px;
+}
+.page-footer123{
+    font-style: normal;
+    font-weight: 400;
+    color: aliceblue;
+    font-size: 22px;
+    line-height: 26px;
+}
+.mailing {
+    background: url(../images/last-photo-sedona.jpg);
+}
