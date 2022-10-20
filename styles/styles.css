@@ -13,9 +13,38 @@
     src: url(/fonts/ptsans-400.woff2) format(woff2);
     font-display: swap ;
 }
+html {
+    height: 100%;
+}
 body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
     font-family:"PT Sans";
     color: black;
+}
+.main-page {
+    flex-grow: 1;
+}
+.advantages-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.advantage-item{
+    width: 400px;
+}
+.menu-item-icon{
+    display: flex;
+}
+.navigation-list{
+    display: flex;
+}
+.navigation{
+    display: flex;
+}
+.menu-list{
+    display: flex;
 }
 .navigation-link{
     font-style: normal ;
@@ -23,6 +52,7 @@ body {
     color: black;
     font-size: 24px;
     line-height: 28px;
+    margin-right: 32px;
 }
 .menu-link{
     font-style: normal;
@@ -30,6 +60,7 @@ body {
     color: black;
     font-size: 24px;
     line-height: 28px;
+    margin-right: 26px;
 }
 .advantages-title{
     font-style: normal;
@@ -75,4 +106,13 @@ body {
 }
 .mailing {
     background: url(../images/last-photo-sedona.jpg);
+}
+.social-networks{
+    display: flex;
+}
+.footer-social-list{
+    display: flex;
+}
+.footer-social-item{
+    margin-right: 32px;
 }
