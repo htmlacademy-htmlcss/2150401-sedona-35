@@ -1,0 +1,173 @@
+@font-face {
+    font-family:"PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url(/fonts/ptsans-700.woff2) format(woff2);
+    font-display: swap ;
+}
+
+@font-face {
+    font-family:"PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(/fonts/ptsans-400.woff2) format(woff2);
+    font-display: swap ;
+}
+html {
+    height: 100%;
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family:"PT Sans";
+    color: black;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.main-page {
+    flex-grow: 1;
+}
+.logo-text{
+    font-weight: bold;
+    margin-bottom: 90;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 64px;
+}
+.advantages-list{
+    display: grid;
+    justify-items: stretch;
+    justify-content: center;
+}
+.advantage-item{
+    width: 400px;
+    margin-bottom: 58px;
+}
+.menu-item-icon{
+    display: flex;
+}
+.navigation-list{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.navigation{
+    display: flex;
+}
+.menu-list{
+    display: flex;
+    list-style-type: none;
+}
+.navigation-link{
+    font-style: normal ;
+    font-weight: 700;
+    color: black;
+    font-size: 24px;
+    line-height: 28px;
+    margin-right: 32px;
+    padding: 24px 19px;
+    display: block;
+}
+.menu-link{
+    font-style: normal;
+    font-weight: 700;
+    color: black;
+    font-size: 24px;
+    line-height: 28px;
+    margin-right: 26px;
+    padding: 24px 19px;
+}
+.advantages-title{
+    font-style: normal;
+    font-weight: 700;
+    color: black;
+    font-size: 24px;
+    line-height: 28px;
+}
+.advantages-title-blue{
+    font-style: normal;
+     font-weight: 700;
+     color: black;
+     font-size: 24px;
+     line-height: 28px;
+     background:  #82B3D3;
+}
+.advantages-description{
+    font-style: normal ;
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+    line-height: 21px;
+}
+.interesting{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 96px 304px;
+}
+.interesing-prg{
+    font-style: normal;
+    font-weight: 400;
+    color: black;
+    font-size: 22px;
+    line-height: 26px;
+}
+.interesting-title{
+    font-style: normal;
+    font-weight: 700;
+    color: black;
+    font-size: 30px;
+    line-height: 36px;
+}
+.page-footer-title{
+    font-style: normal;
+    font-weight: 700;
+    color: aliceblue;
+    font-size: 30px;
+    line-height: 36px;
+}
+.page-footer123{
+    font-style: normal;
+    font-weight: 400;
+    color: aliceblue;
+    font-size: 22px;
+    line-height: 26px;
+}
+.mailing {
+    background: url(../images/last-photo-sedona.jpg);
+    flex-direction: column;
+    justify-content: center;
+    padding: 96px 258px 104px;
+}
+.social-networks{
+    display: flex;
+}
+.footer-social-list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.footer-social-item{
+    margin-right: 32px;
+    flex-wrap: wrap;
+    display: block;
+    padding: 20px 20px;
+    width: 20px;
+    height: 20px;
+}
