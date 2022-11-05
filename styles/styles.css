@@ -50,11 +50,27 @@ body {
 .main-page {
     flex-grow: 1;
 }
-.logo-text{
-    font-weight: bold;
+.logo-text-big{
+    font-weight: 700;
     margin-bottom: 90;
     display: flex;
     justify-content: center;
+    font-size: 30px;
+    color: black;
+}
+.text-logo{
+    padding-top: 69px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo-text{
+    font-weight: 400;
+    margin-bottom: 90;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
 }
 .logo {
     display: block;
@@ -70,7 +86,7 @@ body {
 }
 .advantages-item{
     width: 400px;
-    background: rgba(131, 179, 211, 0.12);
+    background: rgba(67, 87, 100, 0.12);
     padding: 92px 85px 111px;
     box-sizing: border-box;
 }
